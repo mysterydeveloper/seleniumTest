@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import junit.framework.TestCase;
 
-public class UntitledTestCase 
+public class UntitledTestCasetest 
 extends TestCase {
   private WebDriver driver;
   private String baseUrl;
