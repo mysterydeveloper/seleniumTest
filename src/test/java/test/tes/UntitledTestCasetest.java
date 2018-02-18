@@ -31,9 +31,13 @@ extends TestCase {
 
   @Test
   public void testUntitledTestCase() throws Exception {
+	  System.out.println("going to google");
 	  driver.get("https://www.google.ie/?gws_rd=cr&dcr=0&ei=qlqIWpvGHIPQgAbTuLC4DQ");
+	  System.out.println("clearing");
 	    driver.findElement(By.id("lst-ib")).clear();
+	    System.out.println("sending keys test");
 	    driver.findElement(By.id("lst-ib")).sendKeys("test");
+	    System.out.println("pressing enter");
 	    driver.findElement(By.id("lst-ib")).sendKeys(Keys.ENTER);
   }
 
